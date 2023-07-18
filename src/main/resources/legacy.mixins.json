@@ -4,10 +4,12 @@
   "package": "me.falsecode.legacylite.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "MixinClientConnection",
     "MixinPlayerEntity"
   ],
   "client": [
     "MixinAbstractClientPlayerEntity",
+    "MixinClientBrandRetriever",
     "MixinMinecraftClient"
   ],
   "injectors": {
